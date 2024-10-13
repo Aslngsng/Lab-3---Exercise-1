@@ -5,3 +5,15 @@
 # check if the list is not divisible by 2, if not get the squared value of the list
 
 # print the output
+
+numbers = list(map(int, input("Enter list of numbers: ").split()))
+
+squared_odd = [i ** 2 for i in numbers if i % 2 != 0]
+
+print(squared_odd)
+
+#input 
+#numbers = [1,2,3,4,5]
+
+#output
+#[1,9,25]
